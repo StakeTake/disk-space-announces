@@ -30,5 +30,4 @@ screen -S diskspaceann
 ```
 python3 $HOME/diskspaceann/diskspaceann.py
 ```
-Detach from the screen session:
 Press CTRL+A+D to detach from the screen session and leave the script running in the background.
