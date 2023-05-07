@@ -1,15 +1,4 @@
-#This script is a Python program that utilizes the Discord API to send messages with information about the disk usage and server IP address to a designated Discord channel. 
-apt install python3-pip screen wget -y
-pip3 install discord psutil requests
-sudo mkdir $HOME/diskspaceann
-wget -O $HOME/diskspaceann/diskspaceann.py "https://raw.githubusercontent.com/StakeTake/disk-space-announces/main/diskspaceann.py"
-Specify in it the token of your discord bot and the channel on your discord server to which the bot will send messages
-nano $HOME/diskspaceann/diskspaceann.py
-screen -S diskspaceann
-python3 $HOME/diskspaceann/diskspaceann.py
-CTRL+A+D
-
-
+This script is a Python program that utilizes the Discord API to send messages with information about the disk usage and server IP address to a designated Discord channel. 
 Installing required packages
 apt install python3-pip screen wget -y: Installs Python3, pip3, screen and wget.
 Installing required Python packages
